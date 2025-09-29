@@ -6,9 +6,9 @@ function votingChecker() {
     let age = prompt("Enter your age:");
 
     if (age >= 18) {
-      alert("Hello" + name + "you are eligible to vote");
+      alert("Hello " + name + "you are eligible to vote");
     } else {
-      alert("Sorry" + name + "you are not eligible to vote")
+      alert("Sorry " + name + "you are not eligible to vote")
     }
 
     again = confirm("Do you want to check again?");
