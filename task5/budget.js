@@ -14,7 +14,7 @@ function budget(){
     }else{
         let balance=income-total;
         alert("Within Budget");
-        alert("Total expenses:"+ total + "\nremaining balance:" + balance + "\npercentage spent:" + per);
+        alert("Total expenses:"+ total + "\nremaining balance:" + balance + "\npercentage spent:" + per +"%");
     }
  }
  budget();

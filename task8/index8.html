@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dashboard.js"></script>
+    <href rel="stylesheet" href="style.css"></href>
+</head>
+<body>
+    <div class="container">
+    <div class="card1">
+      <h2>Profile</h2>
+      <input type="text" id="name" placeholder="Enter your name"><br>
+      <input type="number" id="birthYear" placeholder="Enter your birth year"><br>
+      <input type="text" id="city" placeholder="Enter your city"><br><br>
+      <button onclick="saveProfile()">Save Profile</button>
+      <div class="output" id="profileOutput"></div>
+    </div>
+    <div class="card2">
+      <h2>Age Checker</h2>
+      <button onclick="checkAge()">Check Age</button><br><br>
+      <div class="output" id="ageOutput"></div>
+    </div>
+    <div class="card3">
+      <h2>Greeting</h2>
+      <button onclick="showGreeting()">Show Greeting</button><br><br>
+      <div class="output" id="greetingOutput"></div>
+    </div>
+    <div class="card4">
+      <h2>Calculator</h2>
+      <input type="number" id="num1" placeholder="Enter first number">
+      <input type="number" id="num2" placeholder="Enter second number"><br><br>
+      <button onclick="calculate('add')">Add</button>
+      <button onclick="calculate('sub')">Subtract</button>
+      <button onclick="calculate('mul')">Multiply</button>
+      <button onclick="calculate('div')">Divide</button>
+      <div class="output" id="calcOutput"></div><br>
+    </div>
+    <div class="card5">
+      <h2>Motivational Quote</h2>
+      <button onclick="showQuote()">Get Quote</button><br><br>
+      <div class="output" id="quoteOutput"></div>
+    </div>
+    <div class="card6">
+      <h2>JSON Info</h2>
+      <button onclick="showJSON()">Show JSON</button><br><br>
+      <div class="output" id="jsonOutput"></div>
+    </div>
+    </div>
+    
+</body>
+</html>
