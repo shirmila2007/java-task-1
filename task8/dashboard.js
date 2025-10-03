@@ -61,7 +61,7 @@ let student = {};
 
         document.getElementById("calcOutput").innerText = `Result: ${result}`;
       } catch (err) {
-        document.getElementById("calcOutput").innerText =  + err;
+        document.getElementById("calcOutput").innerText =   err;
       }
     }
     function showQuote() {
@@ -81,6 +81,6 @@ let student = {};
         document.getElementById("jsonOutput").innerText =
           JSON.stringify(student, null, 2);
       } catch (err) {
-        document.getElementById("jsonOutput").innerText =  + err;
+        document.getElementById("jsonOutput").innerText =  err;
       }
     }
